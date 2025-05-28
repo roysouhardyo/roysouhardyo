@@ -1,3 +1,5 @@
+<div style="border: 2px solid #e0e0e0; border-radius: 12px; padding: 20px;">
+
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=roysouhardyo.roysouhardyo)
 
 <h1 align="center">Hi 👋, I'm Souhardya Roy</h1>
@@ -18,10 +20,10 @@
 ### 🔗 Connect with Me
 
 <p align="left">
-  <a href="https://linkedin.com/in/your-linkedin" target="_blank">
+  <a href="https://linkedin.com/in/roysouhardya" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:your.email@example.com" target="_blank">
+  <a href="mailto:roy311@proton.me" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-red?logo=gmail&logoColor=white" />
   </a>
   <a href="https://github.com/roysouhardyo" target="_blank">
@@ -67,13 +69,16 @@
 </p>
 
 ---
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roysouhardyo/roysouhardyo/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/roysouhardyo/roysouhardyo/output/github-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/roysouhardyo/roysouhardyo/output/github-snake.svg" />
+    <img 
+      alt="github-snake" 
+      src="https://raw.githubusercontent.com/roysouhardyo/roysouhardyo/output/github-snake.svg" 
+      style="border: 2px solid #ccc; border-radius: 10px; padding: 4px; max-width: 100%;" 
+    />
   </picture>
 </p>
 
-
+</div>
