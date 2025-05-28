@@ -2,7 +2,12 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=roysouhardyo.roysouhardyo" alt="Visitor Badge" />
 </p>
 
-<h1 align="center">Hi 👋, I'm Souhardya Roy</h1>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=32&duration=3500&pause=800&color=4A90E2&center=true&vCenter=true&width=800&lines=Hi+%F0%9F%91%8B+I'm+Souhardya+Roy!;Tech+Explorer+%F0%9F%9A%80+%7C+CSE+Undergrad+%F0%9F%93%9D;Exploring+AI%2C+ML%2C+Security+%26+Vision+%F0%9F%A7%91%E2%80%8D%F0%9F%8E%93;Building+Cool+Stuff+with+Code+%F0%9F%A7%AA;Welcome+to+My+GitHub+Universe+%F0%9F%8C%9F" alt="Typing animation" />
+</p>
+
+
+
 <p align="center"><strong>CSE Undergrad | Exploring AI, ML, Cybersecurity & Image Processing | Tech Learner</strong></p>
 
 ---
