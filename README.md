@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=roysouhardyo.roysouhardyo" alt="Visitor Badge" />
 </p>
 
