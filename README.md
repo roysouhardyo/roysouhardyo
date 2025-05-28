@@ -68,12 +68,6 @@
 
 ---
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=roysouhardyo" alt="GitHub Trophies" />
-</p>
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roysouhardyo/roysouhardyo/output/github-snake-dark.svg" />
