@@ -62,7 +62,6 @@
 </p>
 
 ---
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roysouhardyo/roysouhardyo/output/github-snake-dark.svg" />
@@ -74,6 +73,7 @@
     />
   </picture>
 </p>
+
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" />
 </p>
