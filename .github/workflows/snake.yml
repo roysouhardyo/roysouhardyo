@@ -1,37 +1,33 @@
-name: GitHub Snake Game
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at midnight UTC
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Run daily at midnight UTC
   push:
     branches:
-      - main
+      - main  # Change if your default branch is different
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate GitHub Contributions Snake Animations
+      - name: Generate Snake SVG animation
         uses: Platane/snk@v3
         with:
           github_user_name: roysouhardyo
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            ./output/github-snake.svg
+            ./output/github-snake-dark.svg
 
-      - name: Deploy to Output Branch
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Commit and push animation
+        uses: EndBug/add-and-commit@v9
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          commit_message: "Update snake animation [skip ci]"
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "Update GitHub snake animation"
+          add: "./output/*.svg"
